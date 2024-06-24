@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(to right,#140009, #1e0a17, #2a1222, #1e0a17, #1a0012)
+}
+
+
+
+img#centralizar{
+    opacity: 85%;
+    width: 250px;
+    height: 225px;
+    display: block;
+    margin: 0 auto;
+}
