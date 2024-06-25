@@ -1,13 +1,46 @@
 body{
-    background-image: linear-gradient(to right,#140009, #1e0a17, #2a1222, #1e0a17, #1a0012)
+    background-image: linear-gradient(to right, rgb(21, 8, 36),rgb(46, 28, 66), rgb(67, 46, 107), rgb(46, 50, 107)   )
 }
 
 
 
 img#centralizar{
-    opacity: 85%;
-    width: 250px;
-    height: 225px;
+    /*responsividade*/
+    min-width: 95px; 
+    min-height: 80px;
+    max-width: 150px;
+    max-height: 170px;
+    /*responsividade*/
+    /*tamanho*/
+    width: 160px;
+    height: 145px;
+    /*tamanho*/
+
+    opacity: 85%; /*opacidade*/
+    /*centralização*/
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    /*centralização*/
+}
+div#box-info{
+    /*alinhamento*/
+    display: block;
+    margin: auto;
+    /*alinhamento*/
+    /*cor*/
+    background-color: rgb(168, 240, 240);
+    /*cor*/
+    /*tamanho*/
+    width: 800px;
+    height: 700px;
+    /*tamanho*/
+    /*borda*/
+    border-radius: 10px;
+    /*bora*/
+}
+div#box-info > p{
+    font-size: 15px;
+    text-indent: 40px;
+    font-weight: 550;
+    text-align: left;
 }
