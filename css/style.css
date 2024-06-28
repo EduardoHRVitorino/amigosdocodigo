@@ -1,9 +1,6 @@
 body{
     background-image: linear-gradient(to right, rgb(21, 8, 36),rgb(46, 28, 66), rgb(67, 46, 107), rgb(46, 50, 107)   )
 }
-
-
-
 img#centralizar{
     /*responsividade*/
     min-width: 95px; 
@@ -22,9 +19,31 @@ img#centralizar{
     margin: auto;
     /*centralização*/
 }
+
+div#lateral-projetos{
+    
+    background-color: rgb(18, 20, 20);
+    display: inline-block;
+    width: 250px;
+    height: 400px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+a{
+    color: rgb(71, 71, 248);
+}
+
+nav > a:hover{
+    color: rgb(81, 0, 148);
+
+}
+
+
 div#box-info{
     /*alinhamento*/
-    display: block;
+    display: inline-block;
     margin: auto;
     /*alinhamento*/
     /*cor*/
@@ -43,4 +62,5 @@ div#box-info > p{
     text-indent: 40px;
     font-weight: 550;
     text-align: left;
+    
 }
